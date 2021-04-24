@@ -13,6 +13,7 @@ public class GitTestController {
         System.out.println("another commit from master 2 after rebase 2");
         System.out.println("another commit from master 3 after rebase 1");
         System.out.println("another commit from master 4 after rebase 1");
+        System.out.println("another commit from master 5 after rebase 1");
         return "Hello "+name;
     }
 
