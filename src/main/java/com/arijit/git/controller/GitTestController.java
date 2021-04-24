@@ -9,7 +9,7 @@ public class GitTestController {
 
     @GetMapping("/hello?/{name}")
     public String sayHello(@PathVariable String name){
-        System.out.println("Commit from master 2");
+        System.out.println("Commit from master 2 and from master 1");
         return "Hello "+name;
     }
 }
