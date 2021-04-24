@@ -8,6 +8,7 @@ public class GitTestService {
     public void FirstService(String name){
         System.out.println("commit 1 for reset check by master 1");
         System.out.println("commit 3 for reset check by master 1");
+        System.out.println("commit 7 for reset check by master 1");
     }
 
     public void SecondService(String name){
@@ -24,5 +25,9 @@ public class GitTestService {
 
     public void ThirdService(String name){
         System.out.println("Third service introduced by master 1");
+    }
+
+    public void FourthService(String name){
+        System.out.println("Fourth service introduced by master 1");
     }
 }
