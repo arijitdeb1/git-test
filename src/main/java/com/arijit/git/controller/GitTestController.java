@@ -14,4 +14,10 @@ public class GitTestController {
         System.out.println("another commit from master 2 after rebase 2");
         return "Hello "+name;
     }
+
+    @GetMapping("/hello2?/{name}")
+    public String sayHello2(@PathVariable String name){
+        System.out.println("New Commit from master 1 ");
+        return "Hello "+name;
+    }
 }
